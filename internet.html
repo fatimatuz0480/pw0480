@@ -1,19 +1,44 @@
-<!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title></title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+<title>Page Title</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+*
+}
+
+@media screen and (max-width: 700px) {
+    .row {   
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .navbar a {
+        float: none;
+        width: 100%;
+    }
+}
+</style>
 </head>
 <body>
-	
-		
-	<table width="100%"><tr><td width="100%" align="center">
-	<img src="2.png" height="50%" width="20%"></td></tr></table>
-	<table width="100%"><td class="nav"> Home | About | Contact | Latest <br><br> </td></table><hr><hr>
-	<header><img src="1.jpg" height="100%" width="100%"></header>
-	
 
-	<table width="100%" align="center"><td class="sub"></td></table>
+<table width="100%"><tr><td width="100%" align="center">
+	<img src="2.png" height="50%" width="20%"></td></tr></table><hr><hr>
+
+ <div class="container">
+  <img src="1.jpg" style="width:100%;">
+</div>
+<br>
+
+<div class="navbar">
+  <a href="#" >Home</a>
+  <a href="#" >About</a>
+  <a href="#" >Contact</a>
+  <a href="#"> Latest</a>
+</div><hr><hr>
+
 
 	<table width="100%">
 		<td class="isi1"  width="10%">
@@ -21,7 +46,7 @@
 		<td width="80%">
 			<table width="70%" align="center">
 				<td>
-					<br><hr><h1>Sejarah Internet</h1> <hr>
+					<br><h1>Sejarah Internet</h1> <hr>
 
 					<h2>Fatimatuz Zuhroh - 16.11.0480</h2><br><br>
 
@@ -79,5 +104,6 @@
 	<img src="1.png" height="50%" width="20%"></td></tr></table>
 	
 <footer><table width="100%" align="right"><td class="footer"> fatimatuz zuhroh - 16.11.0480  </td></table></footer>
+
 </body>
 </html>
